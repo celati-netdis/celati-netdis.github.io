@@ -5,7 +5,7 @@ permalink: /spreadsheets/
 ---
 
 <style>
-
+/* HTML for tabs */
 /* code from or modified from https://www.w3schools.com/w3css/w3css_tabulators.asp */
 .w3-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
@@ -42,10 +42,10 @@ tab:hover {
 In this section you can search and download the spreadsheets I have set in order to develop the networks visualisations. For each network, you will find a spreadsheet containing the nodes (people) and one containing the edges (relationships).
 
 
-You will also find a masterlist containing all the people involved in my spreadsheets and the [relational database](https://en.wikipedia.org/wiki/Relational_database) I have developed in order to track the spread of heresy in sixteenth-century Venice and its geographial distribution. I started by considering several Inquisition trials of heretical physicians, and I have progressively involved other people's trials (thanks to the generous collaboration of some colleagues and friends who shared with me their information). In this database, I collect people involved in the trials; places mentioned as venues of heretical meetings; heretical books and heretical activities cultivated by them; etc (more in [the documentation file](/documentation/)). 
+You will also find a masterlist containing all the people involved in my spreadsheets and the [relational database](https://en.wikipedia.org/wiki/Relational_database) I have developed in order to track the spread of heresy in sixteenth-century Venice and its geographial distribution. I started by considering several Inquisition trials of heretical physicians, and I have progressively involved other people's trials (thanks to the generous collaboration of some colleagues and friends who shared their information with me). In this database, I collect information on the people involved in the trials; places mentioned as venues of heretical meetings; heretical books and heretical activities cultivated by them; etc (more in [the documentation file](/documentation/)). 
 
 
-What you see in these spreadsheets is a work in progress, which requires additional archive research and that I continuosly update and revise. So please be aware of that. Moreover, plase be aware that early modern sources are often incomplete and fragmented, so in some cases I had to somewhat approximate the information I had (see the documentation file).
+What you see in these spreadsheets is a work in progress, which requires additional archive research and that I continuosly update and revise. So please be aware of that. Moreover, please be aware that early modern sources are often incomplete and fragmented, so in some cases I had to somewhat approximate the information (see the documentation file).
 
 
 Click on the tabs below to access the spreadsheets.
@@ -87,6 +87,7 @@ Click on the tabs below to access the spreadsheets.
 {% endfor %}
 
 <script>
+	// javascript for tabs
 	// code modified from https://www.w3schools.com/w3css/w3css_tabulators.asp
 function openCity(evt, cityName) {
   var i, x, tablinks;
