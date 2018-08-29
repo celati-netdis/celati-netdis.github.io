@@ -1,0 +1,80 @@
+---
+layout: page
+title: Visualisations
+permalink: /visualisations/
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+<p>This section shows some of the networks’ visualisations produced within the Netdis project, using the <a href="https://hdlab.stanford.edu/palladio/">Stanford Palladio</a> and <a href="https://gephi.org/">Gephi</a> softwares.</p>
+
+<p>All the networks take into consideration the people involved (called “nodes” and labelled by their profession), and the kind of tie they developed with one another (called “edges”). Sometimes other criteria have been also considered in labelling nodes and edges, such as the places where the edges were cultivated, the nodes’ gender, etc.</p>
+
+
+<p>This is a work in progress. Please contact me if you have any comment or suggestion, I will be happy to receive your feedback!</p>
+
+
+{% assign sections = site.data.vissections %}
+<ol>
+{% for section in sections %}
+	<li><a href="/visualisations/#{{ section.url }}">{{ section.title }}</a></li>
+{% endfor %}
+</ol>
+
+{% for section in sections %}
+<h4><a name="{{ section.url }}">{{ section.title }}</a></h4>
+<p>{% if section.text %}{{ section.text }}{% endif %}</p>
+
+{% if section.images %}
+{% for image in section.images %}
+<img class="myImg" src="{{ site.baseurl }}{{ image.image-path }}" {% if image.label %}{% if image.legend %}alt="{{ image.label }}<hr>{{ image.legend }}" {% else %}alt="{{ image.label }}" {% endif %}{% endif %}width="150px" height="150px" style="object-fit:cover;">
+
+<!-- Code from https://www.w3schools.com/css/css_image_gallery.asp-->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+{% endfor %}
+
+{% else %}
+<h4><a name="{{ section.url }}">{{ section.title }}</a></h4>
+{% endif %}
+<p></p>
+{% endfor %}
+
+
+<script>
+// Get the modal (code from https://stackoverflow.com/questions/41275958/modal-image-galleries-multiple-images)
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+</script>

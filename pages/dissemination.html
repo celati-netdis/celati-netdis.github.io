@@ -1,0 +1,16 @@
+---
+layout: page
+title: Dissemination Activities
+permalink: /dissemination/
+---
+
+<p>The results and methodology of NETDIS have been presented at several international conferences and workshops. Click on the titles for more details.</p>
+
+{% assign sections = site.data.dissections %}
+{% for section in sections %}
+
+<p><b>{% if section.url %}<a href="{{ site.baseurl }}{{ section.url }}">{% endif %}{{ section.title }}</a></b>
+{% if section.label %} 
+<br>{{ section.label }}</p>
+{% endif %}
+{% endfor %}

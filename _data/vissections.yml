@@ -1,0 +1,70 @@
+- title: Donzellini&apos;s Ego Network
+  url: donzellinis-ego-network
+  text: Here you can find the visualisations related to the pilot case&#58; Girolamo Donzellini’s ego-networks. These data suggest that, while Inquisitorial repression was growing stronger and Donzellini was growing older, he progressively diverted his activity as a dissident from the militancy in favour of the Reformation to a commitment to the defence of the free circulation of knowledge. This did not prevent the Inquisition from executing him in 1587.
+  images:
+    - image-path: /images/vis-donzego/vis-hn4050.png
+      label: Venetial Heretical Network in 1540s to early 1550s
+    - image-path: /images/vis-donzego/vis-hn6087.png
+      label: Heretical Network in 1560 to 1587
+    - image-path: /images/vis-donzego/vis-booksto1553.png
+      label: Books Network through 1553
+    - image-path: /images/vis-donzego/vis-bookspost1553.png
+      label: Books Network after 1553
+- title: Donzellini, Bellebuono, and Panarelli Networks
+  url: donzellini-bellebuono-and-panarelli-networks
+  text: In the second part of the outgoing phase, NETDIS examined, compared, and crossed <a href="/project/#mapping-the-venetian-network">two other ego-networks of heretical physicians who were active in the Republic of Venice</a>, those of Decio Bellebuono and Teofilo Panarelli. This methodology highlights that, although we lack of evidence that these three doctors—who were operating in the Republic of Venice in the same period—knew each other, they had enough in common to be considered as part of the same social and intellectual movement. The matter of heretical physicians as a social and intellectual movement will be the specific topic of the book I am currently working on. 
+  images:
+    - image-path: /images/vis-dpb/d.png
+      label: Girolamo Donzellini's Ego-Network
+    - image-path: /images/vis-dpb/d-detail.png
+      label: Girolamo Donzellini's Ego-Network, Detailed
+      legend: <p><i>Types of heretical ties&#58;<br>Heresy<br>Heresy-humanism<br>Heresy-books<br>Heresy-relatives<br>Heresy-alchemy<br>Heresy-patronage<br>Heresy-medicine<br>Heresy-healing</i></p>
+    - image-path: /images/vis-dpb/b.png
+      label: Decio Bellebuono's Ego-Network
+      legend: <p>Nodes (see label)<br>Edges&#58;<ul>Green = Venetian Academy<br>Grey = Venetian Academy-Heresy (Bernardo Tasso)<br>Dark green (Galeno Bellebuono) =Family-Alchemy-Medicine<br>Purple (Lelio Bellebuono) = Family-Alchemy<br>Pink = Heresy<br>Blue-Green (Giorgio Biandrata) = Heresy-Medicine-Intermediary<br>Light orange (Antonino Volpe) = Heresy-Alchemy<br>Yellow-green = Alchemy<br>Light blue = Accuser<br>Blue = Heresy –Accuser<br>Dark blue = Medicine – Defender<br>Brown = Collaborator-Defender<br>Orange = Patient-Defender<br></ul></p>
+    - image-path: /images/vis-dpb/p.png
+      label: Teofilo Panarelli's Ego-Network
+    - image-path: /images/vis-dpb/dpb.png
+      label: Overlap by Category
+      legend: <p>(Nodes = profession)<br>(Edges = type of tie)<br>Edges legend&#58;<br>Light green = heresy - books<br>Green = education<br>Dark green = heresy - family<br>Orange = heresy – medicine<br>Light blue = heresy<br>Brown = books publication and exchange<br>Purple = Venetian academy<br>Blue – green (Textor) = heresy – alchemy<br>Green = alchemy</p>
+    - image-path: /images/vis-dpb/dpb-p.png
+      label: Overlap by Place
+      legend: <p>Purple = Venice<br>Blue = Padua<br>Orange = Basel</p>
+    - image-path: /images/vis-dpb/dpb-pc-detailed.png
+      label: Overlap by Place and Category, detailed
+- title: The &quot;Great Utopia&quot; Network
+  url: the-great-utopia-network
+  text: <p>Some of the contacts that these physicians had in common were scholars, writers, and alchemists, involved in what I would call “the great utopia”&#58; a scientific and spiritual programme which conceived of the universe as animated by the spirit of God and thought of man as the creature able to unveil the hidden sympathies between microcosm and macrocosm, man and God, Creation and Creator. It was a programme which engaged in the disclosure of the secrets of nature through the pursuit of alchemical activities and other occult disciplines—a programme, finally, that in its pantheistic views, was inherently open-minded and tolerant, meaning to overcome religious dogmas and to fight back religious violence.</p><p>With this in mind I have tried to expand this “great utopia” network. The result is a very preliminary and work in progress network. The visualisations represent the overlap between the heretical movement and the cultural trend I described above, with a focus on heretical physicians. The nodes who populate the visualisations were people involved in the network, at different levels, either as heretics, or as scholars interested in hermeticism, or as both.</p><p>The visualisations highlight the potential interest, along with the documented interest, in both religious non-conformism and occult philosophies.</p>
+  images:
+      - image-path: /images/vis-gu/inqpc.png
+        label: Inquisition, Place, and Category
+        legend: <p>Nodes&#58;<br>Red = caught by the Inquisition<br>Blue = never caught by the Inquisition</p><p>Edges&#58;<br>(the category is readable. The colours represent the main places as it follows)<br>Green = Venice<br>Purple = Basel<br>Orange = Modena<br>Brown = Padua<br>Red = Bologna</p>
+      - image-path: /images/vis-gu/intpc.png
+        label: Interest, Place, and Category
+        legend: <p>Nodes&#58;<br>Red = documented interest in occult disciplines<br>Blue = potential interest in occult disciplines</p><p>Edges&#58;<br>(the category is readable. The colours represent the main places as it follows)<br>Green = Venice<br>Purple = Basel<br>Orange = Modena<br>Brown = Padua<br>Red = Bologna</p>
+- title: Heretical Physicians Interconnected Network
+  url: heretical-physicians-interconnected-network
+  text: <p>These visualisations show the extensive diffusion of Italian heretical physicians in the Italian Peninsula and, after their religious diaspora, in the <a href="/project/#mapping-the-national-and-transnational-network">European continent</a>. They highlight the role of heretical physicians as intermediaries and <i>hubs</i> in the Italian Reformation movement between the 1540s and the 1570s.</p><p>However, as sociologists would put it, “the network is not the picture”. The real historical network was much denser and more expanded than what the visualisation shows.  In order to evaluate how physicians contributed to the spread, the promotion, and the perpetuation of the heretical movement, I have chosen to populate the visualisation with the most central and best-documented heretical doctors and with well-known (more or less radical) Italian heretics. In addition, I have integrated in the network some nodes that are instrumental in connecting the figures I wanted to inquire into. In many cases these nodes were alchemists; thus, I have highlighted them with the same colour (green). Moreover, in the cases where women were involved in the heretical network, I have taken them into consideration. Mostly neglected in the study of Italian religious dissent, women were often connected to physicians as patients.</p>
+  images:
+    - image-path: /images/vis-hpi/hpi0.png
+      label: European distribution of Italian heretical physicians
+    - image-path: /images/vis-hpi/hpi1.png
+      label: Role of heretical physicians as intermediaries and hubs in the Italian Reformation movement (1540s-1570s)
+      legend: <p>Nodes&#58;<br>Purple = physicians<br>Grey = Italian Protestants<br>Red = Italian radical heretics<br>Yellow = women<br>Green = alchemists</p><p>Edges = places where the contact took place&#58;<br>(in the history of the Italian Reformation, the choice to operate in one specific city/country can potentially reveal specific religious trends)<br>Blue = Venice<br>Green = Basel<br>Purple/Pink = Eastern Europe<br>Orange = Ferrara<br>Brown = Padua</p>
+    - image-path: /images/vis-hpi/hpi2.png
+      label: Heretical Physicians Interconnected, by Gender and Category
+      legend: <p>Nodes&#58;<br>Blue = Male<br>Pink = Female</p><p>Edges = category of connection<br>(See attached images)</p>
+    - image-path: /images/vis-hpi/legend1.png
+      label: Edges Legend Part 1
+    - image-path: /images/vis-hpi/legend2.png
+      label: Edges Legend Part 2
+    - image-path: /images/vis-hpi/legend3.png
+      label: Edges Legend Part 3   
+- title: Radical Doctors Network
+  url: radical-doctors-network
+  text: <p>Many Italian heretical physicians left their homeland to escape persecution and were often forced to <a href="/project/#mapping-the-national-and-transnational-network">continue to migrate across European cities</a>, in order to find some forms of religious and intellectual freedom.</p><p>Increasingly radicalizing their religious views, some of them were even considered atheists by their peers. This is, for instance, the case of a physician from Lucca called Simone Simoni. His restless geographical mobility—he lived in Switzerland, France, Germany, Czech Republic, and Poland—mirrored his “confessional mobility” and his inability to be content with any of the competing religious denominations of his time. Considering which theological confession could guarantee him the higher level of social prestige, he converted instrumentally to Calvinism, Lutheranism and Catholicism again, but always secretly favoured radical doctrines.</p><p>In the visualisation, Simoni’s ego-network crosses that of another “errant” radical physician, Marcello Squarcialupi, who was Simoni’s rival and enemy for both scientific and theological reasons. Their networks involved Italian heretics as much as German Reformers, powerful aristocrats, and high members of the Church. In fact, the medical profession ensured cultural prestige, and this in turn could easily guarantee social protection to well-respected physicians – a social dynamic recurring in all the ego-networks examined here.</p>
+  images:
+    - image-path: /images/vis-rd/1.png
+      label: Simoni and Squarcialupi's Ego-Networks Overlapped
+    - image-path: /images/vis-rd/1legend.png
+      label: Legend

@@ -1,0 +1,21 @@
+- title: About
+  sublinks: 
+    - title: The Project
+      url: /project/
+    - title: The Researcher
+      url: /researcher/
+- title: Database
+  sublinks:
+      - title: Visualisations
+        url: /visualisations/
+      - title: Spreadsheets
+        url: /spreadsheets/
+      - title: separator
+      - title: Documentation
+        url: /documentation/
+- title: Further Resources
+  sublinks:
+    - title: Dissemination Activites
+      url: /dissemination/
+    - title: Documentary
+      url: /documentary/

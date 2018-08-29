@@ -1,0 +1,80 @@
+- title: Girolamo Donzellini
+  visualisation: /visualisations/#donzellinis-ego-network
+  google-id: 1gqnWp0qurMU75mXAvYGWzaOZwnert8WcQ8pSPQhf5xY
+  prefix: Donzellini's&nbsp;
+  display: block
+  tablink: w3-white
+  tables:
+    - name: Nodes
+      gid: 1789724638
+    - name: Edges
+      gid: 975431260
+    - name: Books
+      gid: 209905092
+- title: Heretical Physicians Interconnected
+  visualisation: /visualisations/#heretical-physicians-interconnected-network
+  google-id: 1Y7uRddCx7p4aF05_EP26fqv0qP_wkokcM18UbV9U47E
+  prefix: Heretical Physicians Interconnected&nbsp;
+  display: none
+  tables:
+    - name: Nodes
+      gid: 0
+    - name: Edges
+      gid: 4143805
+- title: Radical Doctors in Eastern Europe
+  visualisation: /visualisations/#radical-doctors-network
+  google-id: 1X4vhc9labz-X6WMmHrQGDOeG_voYSfoTbxhlf4yyGRU
+  prefix: Radical Doctors'&nbsp;
+  display: none
+  tables:
+    - name: Nodes
+      gid: 258468555
+    - name: Edges
+      gid: 1247495317
+- title: The Great Utopia
+  visualisation: /visualisations/#the-great-utopia-network
+  google-id: 18ivOkIQ7a2to4gs0OLHsu4UWdq5XxYYijc2atd7dWjk
+  prefix: Great Utopia Network&nbsp;
+  display: none
+  tables:
+    - name: Nodes
+      gid: 1388782874
+    - name: Edges
+      gid: 743027908
+- title: Donzellini, Bellebuono, and Panarelli
+  visualisation: /visualisations/#donzellini-bellebuono-and-panarelli-networks
+  prefix: Donzellini, Bellebuono, and Panarelli's&nbsp;
+  google-id: 1mcKu0uhF_AB4_Bi6Joe3MnkpllaFY-UQkXftM76O40Y
+  display: none
+  tables:
+    - name: Nodes
+      gid: 1069742731
+    - name: Edges
+      gid: 557526435
+- title: A Network of Dissident Physicians
+  google-id: 15twtsvL02OSaCXIHly-jsAQmmfbB-AM3aeMUedytdmI
+  prefix: Dissident Physicians'&nbsp;
+  display: none
+  tables:
+    - name: Nodes
+      gid: 1683447609
+    - name: Edges
+      gid: 0
+- title: Masterlist of IDs
+  google-id: 13hoNvsbjTLt-6_l-TUKSFhcrWOXyTYb2iInVMcBSopE
+  csv: yes
+  display: none
+- title: Relational Database
+  google-id: 1rdGTfEfJWzXvmqcEiEOzyzdaBfx3RNowfoHYGLVPadw
+  display: none
+  tables:
+    - name: Person IDs
+      gid: 1304883334
+    - name: Trial IDs
+      gid: 1745462812
+    - name: Place IDs
+      gid: 652547214
+    - name: Trials and Persons
+      gid: 1783627404
+    - name: Trials and Places
+      gid: 408450937

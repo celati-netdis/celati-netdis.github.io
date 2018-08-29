@@ -1,0 +1,31 @@
+{% for file in files %}
+<h5><b>{% if file.title %}{{ file.title }}{% endif %}</b></h5>
+
+
+<!-- This section makes the PDF visible on the page -->
+{% if file.abstract %}
+<p><b>Abstract</b></p>
+<p>
+<object data="{{ site.baseurl }}{{ file.abstract }}" type="application/pdf" width="100%" height="600px">
+	<iframe src="{{ site.baseurl }}{{ file.abstract }}" width="100%" height="auto;" style="border: none;">
+This browser does not support PDFs. Please download the PDF to view it: <a href="{{ site.baseurl }}{{ file. abstract }}">Download PDF</a>
+</iframe>
+</object></p>
+{% endif %}
+
+
+<!-- This section makes all the images visible on the page -->
+{% if file.images %} 
+<p><b>Pictures</b></p>
+{% for image in file.images %}
+<br><figure>
+{% if image.label %}
+<img src="{{ site.baseurl }}{{ image.image-path }}" style="max-width:100%;" alt="{{ image.label }}">
+<figcaption>{{ image.label }}</figcaption>
+{% else %}<img src="{{ site.baseurl }}{{ image.image-path }}" style="max-width:100%;">
+
+{% endif %}</figure>
+</p>
+{% endfor %}
+{% endif %}
+{% endfor %}
