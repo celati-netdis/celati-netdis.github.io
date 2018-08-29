@@ -4,6 +4,9 @@
       url: /project/
     - title: The Researcher
       url: /researcher/
+    - title: separator
+    - title: Acknowledgments
+      url: /acknowledgments
 - title: Database
   sublinks:
       - title: Visualisations
