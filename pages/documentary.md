@@ -9,7 +9,7 @@ permalink: /documentary/
 
 <p align="center"><a href="https://www.patreon.com/donzellinidoc">Visit our Patreon!</a></p>
 
-*Thinking about freedom: a network of heretics in sixteenth-century Italy*
+*Thought Crimes in Sixteenth-Century Italy: Girolamo Donzellini and his Heretical Network*
 
 
 This non-profit documentary is the result of an encounter between two young early-modern historians, Alessandra Celati and Emma Hinchliffe. Believing that the past has significant value in the present, these two historians share the same strong passion for telling stories from the past. They want these stories to be known outside an academic context, so that the significance of history can reach a wider audience and improve its understanding of what it has inherited. Celati and Hinchliffe believe that the story conveyed in this documentary is a great and vital story to be told because of the perseverance and diligence that shines regardless of its tragic end.

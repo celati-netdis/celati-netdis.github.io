@@ -32,16 +32,18 @@ Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and
 2018-08-30-example.md
 ```
 
-Be sure to write front-matter, typically including a title, layout, publishing date, and categories.
+Be sure to write front-matter, typically including a title, layout, publishing date, and tags.
 
 ```
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-11-17 16:16:01 -0600
-categories: jekyll update
+title: "Welcome to Jekyll!"
+date: 2015-11-17 16:16:01 -0600
+tags: update
 ---
 ```
+
+
 
 # Creating Pages
 

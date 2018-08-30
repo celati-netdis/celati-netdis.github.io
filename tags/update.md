@@ -1,6 +1,6 @@
 ---
 layout: tag
-title: #Update
+title: #update
 tag: update
 ---
 
