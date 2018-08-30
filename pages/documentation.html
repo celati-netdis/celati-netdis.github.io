@@ -4,6 +4,12 @@ title: Documentation
 permalink: /documentation/
 ---
 
-The document below provides useful information on the data and visualizations presented on this website.
+The documents below provide useful information on the data and visualizations presented on this website.
+<p></p>
+<hr>
+<br>
+{% assign sections = site.data.documentation %}
 
-<button class="btn btn-lg"><a download href="https://docs.google.com/document/d/1ReCLOnD5ihXQqJBDpkU9yjdLJ-hlMlUM3jITrhuUMTs/export?format=pdf"><i class="fa fa-download"></i> Documentation</a></button> 
+{% for section in sections %}
+<p align="center"><button class="btn btn-lg"><a download href="https://docs.google.com/document/d/{{ section.id }}/export?format=pdf"><i class="fa fa-download"></i> {{ section.title }}</a></button></p>
+{% endfor %}
