@@ -1,0 +1,32 @@
+---
+layout: page
+permalink: /posts/
+title: Posts
+---
+{% comment %}
+
+Currently, no part of the website links to this page. I just provided this in case you want to write posts in the future, and have them be available for viewership through here.
+
+{% endcomment %}
+
+  {% for post in site.posts %}
+  <div class="post-entry">
+   <i>{{ post.date | date: "%b %-d, %Y" }}</i> — {% if post.author %}<b><span style="font-size:smaller;letter-spacing:2px;text-transform:uppercase;">BY {{ post.author }}</span></b>{% endif %}
+      
+     <h4 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h4>
+
+
+<blockquote>
+	<p>{{ post.content | truncate:200 }}</p>
+</blockquote>
+
+<!--used https://kylewbanks.com/blog/creating-category-pages-in-jekyll-without-plugins as reference-->
+
+<div class="post-tags">
+<p><small> {% assign sortedTags = post.tags | sort %}
+    {% for tag in sortedTags %}
+    #<a href="/tags/{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+</small></p></div>
+ </div>
+  {% endfor %}

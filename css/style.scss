@@ -12,6 +12,11 @@ blockquote {
 	background-color:#eeeeee;
 }
 
+/* Used https://css-tricks.com/blockquote-bulge/ as reference */
+
+blockquote p:last-child {
+	padding-bottom:0px;
+}
 figcaption {
 	font-size:smaller;
 	font-style:italic;
@@ -155,4 +160,12 @@ ul.navlinks li ul{
 
 .post-title {
 	text-align:center;
+}
+
+.post-entry {
+	padding-bottom:40px;
+}
+
+.post-tags {
+	padding-top: 10px;
 }
