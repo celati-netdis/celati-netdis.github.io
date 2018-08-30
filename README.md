@@ -1,1 +1,3 @@
-/* TODO: explain purposes / document what each file means */
+# Dependencies
+
+This website uses Jekyll and its built-in SCSS compiler for the associated CSS, so be sure to install Jekyll first.
