@@ -6,7 +6,7 @@ This website uses Jekyll and its built-in SCSS compiler for the associated CSS, 
 $ gem install jekyll
 ```
 
-In case you don't have the `bundler` gem installed already, you can install it as follows:
+If you don't have the `bundler` gem installed, you can install it this way:
 
 ```bash
 $ gem install bundler
