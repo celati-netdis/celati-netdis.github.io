@@ -15,3 +15,17 @@ $ gem install bundler
 More information on how to install and quick start Jekyll can be found [here](https://jekyllrb.com/docs/installation/) and [here](https://jekyllrb.com/docs/quickstart/).
 
 This website also uses Bootstrap, JQuery, and Popper.JS for stylization purposes. Documentation on them can be found [here](https://getbootstrap.com/docs/4.1/getting-started/introduction/), [here](https://api.jquery.com/), and [here](https://popper.js.org/popper-documentation.html). Here is also [a guide on how to add Bootstrap](https://simpleit.rocks/ruby/jekyll/tutorials/how-to-add-bootstrap-4-to-jekyll-the-right-way/) to Jekyll.
+
+# Adding Posts
+
+From Jekyll's documentation:
+
+To create a new post, all you need to do is create a file in the \_posts directory. How you name files in this folder is important. Jekyll requires blog post files to be named according to the following format:
+
+```
+YEAR-MONTH-DAY-title.MARKUP
+```
+Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. 
+
+# Creating Pages
+

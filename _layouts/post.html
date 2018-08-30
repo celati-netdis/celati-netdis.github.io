@@ -1,3 +1,17 @@
 ---
 layout: default
 ---
+
+<article>
+	<header class="post-header">
+		<h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+		{% if page.author %}
+		<center><h4 style="text-transform: uppercase;">{{ page.author }}</h4></center>
+		{% endif %}
+	</header>
+
+	<div class="post-content">
+		{{ content }}
+	</div>
+
+</article>
