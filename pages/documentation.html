@@ -11,5 +11,7 @@ The documents below provide useful information on the data and visualizations pr
 {% assign sections = site.data.documentation %}
 
 {% for section in sections %}
-<p align="center"><button class="btn btn-lg"><a download href="https://docs.google.com/document/d/{{ section.id }}/export?format=pdf"><i class="fa fa-download"></i> {{ section.title }}</a></button></p>
+<p align="center"><button class="btn btn-lg"><a download href="https://docs.google.com/document/d/{{ section.google-id }}/export?format=pdf"><i class="fa fa-download"></i> Download {{ section.title }} (PDF)</a></button></p>
 {% endfor %}
+
+<!--The code above is written so that by adding bullet entries to the file /_data/documentation.yml, the code will automatically generate new download button/links to the information supplied, this way you don't have to worry about writing the HTML for each button.-->
