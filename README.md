@@ -25,7 +25,23 @@ To create a new post, all you need to do is create a file in the \_posts directo
 ```
 YEAR-MONTH-DAY-title.MARKUP
 ```
-Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. 
+Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. Here are some examples:
+
+```
+2018-08-14-welcome-to-jekyll.markdown
+2018-08-30-example.md
+```
+
+Be sure to write front-matter, typically including a title, layout, publishing date, and categories.
+
+```
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2015-11-17 16:16:01 -0600
+categories: jekyll update
+---
+```
 
 # Creating Pages
 
