@@ -16,7 +16,7 @@ layout: default
 	</div>
 
 	<div class="post-tags">
-	<p><small> {% assign sortedTags = page.tags | sort %}
+	<p><small><b>{{ page.date | date: "%b %-d, %Y — %H:%M %Z" }}</b> | {% assign sortedTags = page.tags | sort %}
     {% for tag in sortedTags %}
     #<a href="/tags/{{ tag }}">{{ tag }}</a>
     {% endfor %}
