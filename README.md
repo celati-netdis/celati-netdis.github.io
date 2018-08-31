@@ -90,6 +90,7 @@ permalink: /example/
 ```
 
 # Directory Structure
+```bash
 ├── assets
 │   └── main.scss 
 ├── css
@@ -119,3 +120,4 @@ permalink: /example/
 │   └── navigation.html
 ├── \_layouts
 │   ├── 
+```
