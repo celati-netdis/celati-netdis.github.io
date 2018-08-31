@@ -76,11 +76,11 @@ title: String // Title of the Webpage
 permalink /String/ // Permalink of the Webpage
 ---
 
-
 ---
 layout: page
 title: "Example Title"
 permalink: /example/
+---
 ```
 
 
