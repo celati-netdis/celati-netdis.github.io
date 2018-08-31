@@ -62,7 +62,8 @@
       gid: 0
 - title: Masterlist of IDs
   google-id: 13hoNvsbjTLt-6_l-TUKSFhcrWOXyTYb2iInVMcBSopE
-  csv: yes
+  masterlist: yes
+  gid: 1395115712
   display: none
 - title: Relational Database
   google-id: 1rdGTfEfJWzXvmqcEiEOzyzdaBfx3RNowfoHYGLVPadw

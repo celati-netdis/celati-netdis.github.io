@@ -67,7 +67,7 @@ Click on the tabs below to access the spreadsheets.
 
 
 {% if section.google-id %}
-<p align="center">{% if section.csv %}<button class="btn btn-sm"><a download href="https://docs.google.com/spreadsheets/d/{{ section.google-id }}/export?format=csv"><i class="fa fa-download"></i> CSV Download {{ section.title }}</a></button> {% endif %}<button class="btn btn-sm"><a download href="https://docs.google.com/spreadsheets/d/{{ section.google-id }}/export?format=xlsx"><i class="fa fa-download"></i> Excel Download {{ section.title }}</a></button></p>{% endif %}
+<p align="center">{% if section.masterlist %}<button class="btn btn-sm"><a download href="https://docs.google.com/spreadsheets/d/{{ section.google-id }}/export?format=xlsx&gid={{ section.gid }}"><i class="fa fa-download"></i> CSV Download {{ section.title }}</a></button> <button class="btn btn-sm"><a download href="https://docs.google.com/spreadsheets/d/{{ section.google-id }}/export?format=xlsx&gid={{ section.gid }}"><i class="fa fa-download"></i> Excel Download {{ section.title }}</a></button></p> {% endif %}<button class="btn btn-sm"><a download href="https://docs.google.com/spreadsheets/d/{{ section.google-id }}/export?format=xlsx"><i class="fa fa-download"></i> Excel Download {{ section.title }}</a></button></p>{% endif %}
 {% endif %}
 
 {% if section.tables %}
