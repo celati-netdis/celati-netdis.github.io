@@ -95,7 +95,7 @@ permalink: /example/
 │   └── main.scss 
 ├── css
 │   └── style.scss 
-├── \_data
+├── _data
 │   ├── berkeley-2018.yml
 │   ├── cesta-2018.yml
 │   ├── cmems-2017.yml
@@ -112,12 +112,12 @@ permalink: /example/
 │   ├── syr-2018.yml
 │   ├── tablesdl.yml
 │   └── vissections.yml
-├── \_includes
+├── _includes
 │   ├── dis-content.html
 │   ├── footer.html
 │   ├── head.html
 │   ├── header.html
 │   └── navigation.html
-├── \_layouts
+├── _layouts
 │   ├── 
 ```
