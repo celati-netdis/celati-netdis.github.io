@@ -91,9 +91,9 @@ permalink: /example/
 
 # Directory Structure
 ```bash
-├── assets
+├── assets                                      # => Style sheet using Bootstrap and SASS
 │   └── main.scss 
-├── css
+├── css                                         # => Style sheet
 │   └── style.scss 
 ├── _data
 │   ├── berkeley-2018.yml
@@ -112,12 +112,19 @@ permalink: /example/
 │   ├── syr-2018.yml
 │   ├── tablesdl.yml
 │   └── vissections.yml
-├── _includes
+├── _includes                                   # => Contains partials that can be used in your layouts
 │   ├── dis-content.html
 │   ├── footer.html
 │   ├── head.html
 │   ├── header.html
 │   └── navigation.html
-├── _layouts
-│   ├── 
+├── _layouts                                    # => Layout related HTML files
+│   ├── default.html
+│   ├── page.html
+│   ├── post.html
+│   └── tag.html
+├── _posts                                      # => posts. Use the format: YEAR-MONTH-DAY-title.MARKUP
+│   └── 2018-08-14-welcome-to-jekyll.markdown
+├── _sass
+│   └── _variables.scss
 ```
