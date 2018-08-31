@@ -63,4 +63,24 @@ tag: blog
 
 # Pages
 
+### Creating A Page
+
+* Create an .md or .html file in the`pages` folder. You can also create the file in the root directory.
+* Name the file with the intended page link. For example, if you what the URL to be `/url`, then name the file `url.md` or `url.html`.
+* Write the front-matter for the page.
+
+```
+---
+layout: page
+title: String // Title of the Webpage
+permalink /String/ // Permalink of the Webpage
+---
+
+
+---
+layout: page
+title: "Example Title"
+permalink: /example/
+```
+
 

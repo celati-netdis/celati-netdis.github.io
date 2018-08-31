@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentary
+title: "Documentary"
 permalink: /documentary/
 ---
 

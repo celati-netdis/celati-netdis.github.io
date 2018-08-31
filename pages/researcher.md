@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Researcher
+title: "About the Researcher"
 permalink: /researcher/
 ---
 

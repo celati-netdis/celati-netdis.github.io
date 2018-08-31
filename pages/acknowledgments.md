@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acknowledgments
+title: "Acknowledgments"
 permalink: /acknowledgments/
 ---
 

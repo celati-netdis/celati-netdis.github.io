@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spreadsheets
+title: "Spreadsheets"
 permalink: /spreadsheets/
 ---
 
