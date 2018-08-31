@@ -90,6 +90,32 @@ permalink: /example/
 ```
 
 # Directory Structure
-
-
-
+├── assets
+│   └── main.scss 
+├── css
+│   └── style.scss 
+├── \_data
+│   ├── berkeley-2018.yml
+│   ├── cesta-2018.yml
+│   ├── cmems-2017.yml
+│   ├── cornell-2018.yml
+│   ├── cp-2018.yml
+│   ├── dissections.yml
+│   ├── documentation.yml
+│   ├── ghi-2018.yml
+│   ├── navigation.yml
+│   ├── nyu-2018.yml
+│   ├── rcsc-2018.yml
+│   ├── rsa-2018.yml
+│   ├── rsa-2019.yml
+│   ├── syr-2018.yml
+│   ├── tablesdl.yml
+│   └── vissections.yml
+├── \_includes
+│   ├── dis-content.html
+│   ├── footer.html
+│   ├── head.html
+│   ├── header.html
+│   └── navigation.html
+├── \_layouts
+│   ├── 
