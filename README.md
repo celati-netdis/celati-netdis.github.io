@@ -39,6 +39,12 @@ Be sure to write front-matter, typically including a `title`, `layout`, publishi
 ```
 ---
 layout: post
+title: String // Title of the Post
+date: YYYY-MM-DD HH:MM:SS TIMEZONE // Time Posted
+tags: String or Array // Tags of the Post
+---
+---
+layout: post
 title: "Welcome to Jekyll!"
 date: 2015-11-17 16:16:01 -0600
 tags: update
@@ -82,5 +88,8 @@ title: "Example Title"
 permalink: /example/
 ---
 ```
+
+# Directory Structure
+
 
 
