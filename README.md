@@ -129,16 +129,16 @@ permalink: /example/
 │   └── _variables.scss
 │
 ├── _config.yml
-├── files										# => files for the website
+├── files                                       # => files for the website
 │   └── abstracts                               # => contains pdfs of abstracts
-├── images										# => images for the website
-├── node_modules								# => bootstrap
+├── images                                      # => images for the website
+├── node_modules                                # => bootstrap
 │   ├── bootstrap
 │   ├── jquery
 │   └── popper.js
-├── pages 										# => contains pages for website
-│   └── dispages 								# => contains dissemination detail pages
-├── tags 										# => contains tags for website
+├── pages                                       # => contains pages for website
+│   └── dispages                                # => contains dissemination detail pages
+├── tags                                        # => contains tags for website
 ├── index.md
 ├── 404.html
 └── README.md
