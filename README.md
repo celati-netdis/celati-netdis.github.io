@@ -127,4 +127,15 @@ permalink: /example/
 │   └── 2018-08-14-welcome-to-jekyll.markdown
 ├── _sass
 │   └── _variables.scss
+│
+│
+├── _config.yml
+├── files
+├── images
+├── node_modules
+├── pages
+├── tags
+├── index.md
+├── 404.html
+└── README.md
 ```
