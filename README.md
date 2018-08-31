@@ -47,7 +47,17 @@ The format for date is `YEAR-MONTH-DATE` `HOUR:MINUTE:SECOND` `TIMEZONE`.
 
 ### Making Tags
 
-x
+[Jekyll's explanation on how to create categories](https://jekyllrb.com/docs/posts/#displaying-post-categories-or-tags) can be used to make tags.
+
+When making new tags, create a new markup file under the directory `tags`. For example, if you have a new tag `blog`, then createa file under the `tags` directory, such as `blog.html` or `blog.md` with at least
+
+```
+---
+layout: tag
+title: #blog
+tag: blog
+---
+```
 
 # Creating Pages
 
