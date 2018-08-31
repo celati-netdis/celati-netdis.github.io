@@ -20,7 +20,7 @@ This website also uses Bootstrap, JQuery, and Popper.JS for stylization purposes
 
 From Jekyll's documentation:
 
-To create a new post, all you need to do is create a file in the \_posts directory. How you name files in this folder is important. Jekyll requires blog post files to be named according to the following format:
+To create a new post, all you need to do is create a file in the `\_posts` directory. How you name files in this folder is important. Jekyll requires blog post files to be named according to the following format:
 
 ```
 YEAR-MONTH-DAY-title.MARKUP
