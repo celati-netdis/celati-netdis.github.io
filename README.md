@@ -95,7 +95,7 @@ permalink: /example/
 │   └── main.scss 
 ├── css                                         # => Style sheet
 │   └── style.scss 
-├── _data
+├── _data                                       # => Contains .yml files for pages to reference
 │   ├── berkeley-2018.yml
 │   ├── cesta-2018.yml
 │   ├── cmems-2017.yml
@@ -123,22 +123,22 @@ permalink: /example/
 │   ├── page.html
 │   ├── post.html
 │   └── tag.html
-├── _posts                                      # => posts. Use the format: YEAR-MONTH-DAY-title.MARKUP
+├── _posts                                      # => Posts. Use the format: YEAR-MONTH-DAY-title.MARKUP
 │   └── 2018-08-14-welcome-to-jekyll.markdown
 ├── _sass
 │   └── _variables.scss
 │
-├── _config.yml
-├── files                                       # => files for the website
-│   └── abstracts                               # => contains pdfs of abstracts
-├── images                                      # => images for the website
-├── node_modules                                # => bootstrap
+├── _config.yml                                 # => Configuration options for your site go here
+├── files                                       # => Files for the website
+│   └── abstracts                               # => Contains pdfs of abstracts
+├── images                                      # => Images for the website
+├── node_modules                                # => Bootstrap
 │   ├── bootstrap
 │   ├── jquery
 │   └── popper.js
-├── pages                                       # => contains pages for website
-│   └── dispages                                # => contains dissemination detail pages
-├── tags                                        # => contains tags for website
+├── pages                                       # => Contains pages for website
+│   └── dispages                                # => Contains dissemination detail pages
+├── tags                                        # => Contains tags for website
 ├── index.md
 ├── 404.html
 └── README.md
