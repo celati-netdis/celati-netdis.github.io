@@ -30,7 +30,7 @@ permalink: /visualisations/
 {% for image in section.images %}
 <img class="myImg" src="{{ site.baseurl }}{{ image.image-path }}" {% if image.label %}{% if image.legend %}alt="{{ image.label }}<hr>{{ image.legend }}" {% else %}alt="{{ image.label }}" {% endif %}{% endif %}width="150px" height="150px" style="object-fit:cover;">
 
-<!-- Code adapted from https://www.w3schools.com/css/css_image_gallery.asp-->
+<!-- Code adapted from https://www.w3schools.com/css/css_image_gallery.asp for research use-->
 
 <div id="myModal" class="modal">
 <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
@@ -45,7 +45,11 @@ permalink: /visualisations/
 
 
 <script>
-// Get the modal (code from https://stackoverflow.com/questions/41275958/modal-image-galleries-multiple-images)
+// From https://stackoverflow.com/questions/41275958/modal-image-galleries-multiple-images)
+// StackOverflow
+// Answer by ab29007 (https://stackoverflow.com/users/7303174/ab29007)
+
+// Get the modal 
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
