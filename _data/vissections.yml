@@ -82,7 +82,7 @@
       label: Network of Dissident Physicians by General Category, upper section
     - image-path: /images/vis-ndp/gencatlower.png
       label: Network of Dissident Physicians by General Category, lower section
-    - image-path: /images/vis-ndp/places-edgesleg.PNG
+    - image-path: /images/vis-ndp/place-edgesleg.PNG
       label: Legend of Edges by Place of Connection
     - image-path: /images/vis-ndp/placesall.png
       label: Network of Dissident Physicians by Place, overview
