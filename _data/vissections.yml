@@ -68,6 +68,9 @@
       label: Simoni and Squarcialupi's Ego-Networks Overlapped
     - image-path: /images/vis-rd/1legend.png
       label: Legend
-- title: A Network of Dissident Physicians
-  url: a-network-of-dissident-physicians
-  text: <p>Work in progress!</p>
+- title: "A Network of Dissident Physicians in the Confessional Age, 1530s-1590s"
+  url: a-network-of-dissident-physicians-in-the-confessiona-age-1530s-1590s
+  text: <p>This (work in progress) network takes into consideration the whole sample of heretical physicians (200 cases) on which I work. The visualisation illustrates the level of interconnectivity among the members of the Italian Reformation movement, and the centrality of physicians (green dots) in this phenomenon. The colour of the edges in the two visualisations represent, respectively, the places where the relationships were cultivated and the “category” of the relationships (Heresy; Heresy and Medicine; and so on).</p><p>Some of the nodes don’t show any connections in the graph. This is due to the fact that, as a work in progress, I haven’t yet been able to determine whether these heretical physicians (of which I have found track in the archives) had any connection in common with some of the most linked people in the network. However, I have decided to include them in the networks nonetheless. In fact, they contribute to show that, along with a core group of heretical physicians involved in the European intellectual and religious circles where medicine and theology were debated, there existed a less central group of reform-minded doctors ready to embrace and propagate innovative religious (and sometimes philosophical) ideas. </p><p>The edges shown in the visualisation do not cover the whole spectrum of connections that each character cultivated (visualising which is beyond the goal of this project) and focus on the most meaningful relationships that heretical physicians initiated. I hope this reconstruction will be useful for the scholars in the history of the Italian Reformation, but also for those who work on the history of medicine and on early modern history of ideas.</p>
+  images:
+    - image-path:
+      label:
