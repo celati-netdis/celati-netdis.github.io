@@ -72,21 +72,21 @@
   url: a-network-of-dissident-physicians-in-the-confessiona-age-1530s-1590s
   text: <p>This (work in progress) network takes into consideration the whole sample of heretical physicians (200 cases) on which I work. The visualisation illustrates the level of interconnectivity among the members of the Italian Reformation movement, and the centrality of physicians (green dots) in this phenomenon. The colour of the edges in the two visualisations represent, respectively, the places where the relationships were cultivated and the “category” of the relationships (Heresy; Heresy and Medicine; and so on).</p><p>Some of the nodes don’t show any connections in the graph. This is due to the fact that, as a work in progress, I haven’t yet been able to determine whether these heretical physicians (of which I have found track in the archives) had any connection in common with some of the most linked people in the network. However, I have decided to include them in the networks nonetheless. In fact, they contribute to show that, along with a core group of heretical physicians involved in the European intellectual and religious circles where medicine and theology were debated, there existed a less central group of reform-minded doctors ready to embrace and propagate innovative religious (and sometimes philosophical) ideas. </p><p>The edges shown in the visualisation do not cover the whole spectrum of connections that each character cultivated (visualising which is beyond the goal of this project) and focus on the most meaningful relationships that heretical physicians initiated. I hope this reconstruction will be useful for the scholars in the history of the Italian Reformation, but also for those who work on the history of medicine and on early modern history of ideas.</p>
   images:
-    - image-path: /vis-ndp/prof-nodesleg.PNG
+    - image-path: /images/vis-ndp/prof-nodesleg.PNG
       label: Legend of Nodes by Profession
-    - image-path: /vis-ndp/gen-edgesleg.PNG
+    - image-path: /images/vis-ndp/gen-edgesleg.PNG
       label: Legend of Edges by General Category
-    - image-path: /vis-ndp/gencatall.png
+    - image-path: /images/vis-ndp/gencatall.png
       label: Network of Dissident Physicians by General Category, overview
-    - image-path: /vis-ndp/gencatupper.png
+    - image-path: /images/vis-ndp/gencatupper.png
       label: Network of Dissident Physicians by General Category, upper section
-    - image-path: /vis-ndp/gencatlower.png
+    - image-path: /images/vis-ndp/gencatlower.png
       label: Network of Dissident Physicians by General Category, lower section
-    - image-path: /vis-ndp/places-edgesleg.PNG
+    - image-path: /images/vis-ndp/places-edgesleg.PNG
       label: Legend of Edges by Place of Connection
-    - image-path: /vis-ndp/placesall.png
+    - image-path: /images/vis-ndp/placesall.png
       label: Network of Dissident Physicians by Place, overview
-    - image-path: /vis-ndp/placesupper.png
+    - image-path: /images/vis-ndp/placesupper.png
       label: Network of Dissident Physicians by Place, upper section
-    - image-path: /vis-ndp/placeslower.png
+    - image-path: /images/vis-ndp/placeslower.png
       label: Network of Dissident Physicians by Place, lower section
