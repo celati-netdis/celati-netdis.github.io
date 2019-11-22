@@ -12,5 +12,10 @@ In particular, I want to acknowledge my current supervisors, professors [Federic
 
 I also want to thank [Stanford University](https://history.stanford.edu/) and [the University of Verona](http://www.dcuci.univr.it/?lang=en) for providing me with great facilities, crucial in the development of the project. My gratitude also goes to the [Center for Spatial and Textual Analysis (CESTA)](https://cesta.stanford.edu/) at Stanford, for the wonderful activities they have involved me into and for encouraging such a great space for collegiality, collaboration, inclusion, and share of ideas. In particular, I would like to thank [Katerine McDonough](https://library.stanford.edu/people/kmcdono2) and [Rachel Midura](https://history.stanford.edu/people/rachel-midura) for generously helping me familiarize myself with Digital Humanities tools when I was just a beginner.
 
-
 Last but not least, I want to thank my research assistant [Zuyi Zhao](https://www.linkedin.com/in/zuyizhao/) for exhibiting seriousness, professionality, and an ability to always adapt to challenging circumstances, and for developing this website.
+
+The research carried out for this paper has received funding from the “European Union’s Horizon 2020 research and innovation programme” under the Marie Sklodowska-Curie Action, Grant Agreement 748645 – NETDIS.
+
+{:refdef: style="text-align: center;"}
+![EU Flag](images/flag.png)
+{: refdef}
