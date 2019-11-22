@@ -17,5 +17,5 @@ Last but not least, I want to thank my research assistant [Zuyi Zhao](https://ww
 The research carried out for this paper has received funding from the “European Union’s Horizon 2020 research and innovation programme” under the Marie Sklodowska-Curie Action, Grant Agreement 748645 – NETDIS.
 
 {:refdef: style="text-align: center;"}
-![EU Flag](images/flag.png)
+![EU Flag](/images/flag.png)
 {: refdef}
